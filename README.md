@@ -1,2 +1,2 @@
-# taskmaster
+# Task Master
 Task Master is a task handler software capable of ...
