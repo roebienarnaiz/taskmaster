@@ -19,7 +19,7 @@ const App: React.FC = () => {
   };
   return (
     <Layout>
-      <div className=' flex h-screen w-screen flex-col items-center  bg-zinc-100 dark:bg-zinc-800 '>
+      <div className=' flex h-screen w-screen flex-col items-center  bg-zinc-100 dark:bg-zinc-900 '>
         <h1 className='z-0 my-8 items-center text-center text-4xl uppercase text-zinc-900 dark:text-zinc-100'>Task Master</h1>
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         <TodoList todos={todos} setTodos={setTodos} />
